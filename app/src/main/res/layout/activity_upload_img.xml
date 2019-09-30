@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/signUpBg"
+    tools:context="com.tridentnets.finance.activity.StartActivity">
+
+    <ImageView
+        android:layout_marginTop="@dimen/dp90"
+        android:id="@+id/img_start_logo"
+
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/pic"
+
+        />
+
+    <com.tridentnets.finance.typeface.TextViewFiraScanBold
+        android:paddingTop="@dimen/dp30"
+        android:paddingRight="35dp"
+        android:paddingLeft="35dp"
+        android:gravity="center"
+        android:id="@+id/txt_start_up_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img_start_logo"
+        android:layout_centerInParent="true"
+        android:text="Upload invoices to cloud in seconds"
+        android:textColor="@color/white"
+        android:textSize="@dimen/sp18" />
+
+    <com.tridentnets.finance.typeface.TextViewFiraScanBook
+        android:paddingRight="@dimen/dp20"
+        android:paddingLeft="@dimen/dp20"
+        android:gravity="center"
+        android:id="@+id/txt"
+        android:paddingTop="@dimen/dp20"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_start_up_title"
+        android:lineSpacingExtra="0sp"
+        android:text="@string/you_can_upload_an_invoice_in_seconds_move_your_operations_to_cloud_in_just_few_clicks_all_invoices_are_stored_safe_and_secure_on_cloud_upload"
+        android:textColor="@color/white"
+        android:textSize="@dimen/sp16" />
+
+    <com.tridentnets.finance.typeface.ButtonFiraScanMedium
+        android:textSize="@dimen/sp16"
+        android:id="@+id/btn_upload_sec_start"
+        android:layout_alignParentBottom="true"
+        android:paddingRight="@dimen/dp10"
+        android:paddingLeft="@dimen/dp10"
+        android:layout_marginRight="@dimen/dp20"
+        android:textAllCaps="false"
+        android:layout_marginBottom="@dimen/dp30"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_green_btn"
+        android:text="@string/getStart"
+        android:textColor="@color/ufogreen"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>

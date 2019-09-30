@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_gravity="center_vertical"
+    android:background="@color/signUpBg"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/dp60"
+    android:layout_height="match_parent"
+    tools:context="com.tridentnets.finance.activity.OrgCreationActivity">
+    <com.tridentnets.finance.typeface.TextViewFiraScanBold
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:textSize="@dimen/sp18"
+        android:textColor="@color/white"
+        android:text="@string/few_more_information_to_set_you_up"
+        android:layout_height="wrap_content" />
+    <com.tridentnets.finance.typeface.TextViewFiraScanBook
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/white"
+        android:paddingTop="@dimen/dp20"
+        android:paddingBottom="@dimen/dp40"
+        android:textSize="@dimen/sp16"
+        android:text="@string/create_your_organization_and_invite_your_team_here"/>
+    <android.support.design.widget.TextInputLayout
+        android:paddingTop="@dimen/dp20"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="180dp"
+        android:layout_marginLeft="180dp"
+        android:layout_gravity="center_horizontal"
+        android:hint="@string/organization_name"
+        android:textColorHint="@color/SignUpEdtTxtColor"
+        android:textSize="@dimen/sp16"
+        android:paddingBottom="@dimen/dp30"
+        app:hintTextAppearance="@style/TextLabel"
+        android:theme="@style/TextInputLayout.">
+
+
+        <com.tridentnets.finance.typeface.EditTextFiraScanBook
+            android:id="@+id/edt_start_org_name"
+            android:textSize="@dimen/SignupEdtTxtSize"
+            android:textColor="@color/silver"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/dp10"
+            android:singleLine="true"
+            />
+    </android.support.design.widget.TextInputLayout>
+    <com.tridentnets.finance.typeface.ButtonFiraScanBold
+        android:layout_width="wrap_content"
+        android:textSize="@dimen/sp18"
+        android:layout_gravity="center"
+        android:background="@drawable/round_green_btn"
+        android:textAllCaps="false"
+        android:textColor="@color/ufogreen"
+        android:text="@string/next"
+        android:layout_height="wrap_content" />
+    <com.tridentnets.finance.typeface.TextViewFiraScanMedium
+        android:textSize="@dimen/sp16"
+        android:paddingTop="@dimen/dp20"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/white"
+        android:text="Looking for an existing organization?"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

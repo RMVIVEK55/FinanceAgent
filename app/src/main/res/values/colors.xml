@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorGlass">#00000000</color>
+    <color name="white">#ffffff</color>
+    //signup
+    <color name="signUpBg">#242e42</color>
+    <color name="ufogreen">#4cd964</color>
+    <color name="silver">#c5c5c5</color>
+    <color name="timberwolf">#d7d7d7</color>
+    <color name="dodgerblue">#1f8efa</color>
+    <color name="platinum">#ededed</color>
+    <color name="ashgrey">#aab2c0</color>
+    <color name="SignUpEdtTxtColor">#c5c5c5</color>
+
+
+    <color name="MediumTurquoise">#50E3C2</color>
+<color name="ColorDodgerBlue">#1F8EFA</color>
+</resources>

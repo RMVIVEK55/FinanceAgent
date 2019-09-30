@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Finance</string>
+    //font
+    <string name="fira_scans_bold">font/FiraSans-Bold.otf</string>
+    <string name="fira_scans_book">font/FiraSans-Book.otf</string>
+    <string name="fira_scans_light">font/FiraSans-Light.otf</string>
+    <string name="fira_scans_medium">font/FiraSans-Medium.otf</string>
+
+    //Signup
+    <string name="sign_up">Sign up</string>
+
+    <string name="sign_up_info">You are few steps away from starting to organize your
+    invoices    </string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="email_address">Email Address</string>
+    <string name="pws">Password</string>
+    <string name="phone_number_optional">Phone Number (Optional)</string>
+    <string name="by_clicking_on_create_account">By clicking on "Create Account", you agree
+    to the Terms of Service and privacy policy</string>
+    <string name="create_account">Create Account</string>
+    <string name="already_signed_up_tap_here_to_sign_in">Already signed up, Tap here to sign
+    in</string>
+    <string name="_91">+91</string>
+    <string name="username">UserName</string>
+    <string name="login">Login</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="new_user_tap_here_to_sign_up">New User, Tap here to sign up</string>
+    <string name="simple_app_to_keep_track_of_your_invoiced">Simple app to keep track of your invoiced</string>
+    <string name="one_app_to_keep_track_of_all_your_invoics_for_levels_in_your_oranization">One app to keep track of all your invoics for levels in your oranization</string>
+    <string name="getStart">Get Started</string>
+    <string name="touch_here_for_other_sign_up_options">Touch here for other sign up options</string>
+    <string name="email_id">Email Id</string>
+    <string name="few_more_information_to_set_you_up">Few more information to set you up</string>
+    <string name="create_your_organization_and_invite_your_team_here">Create your organization and invite your team here</string>
+    <string name="organization_name">Organization Name</string>
+    <string name="next">Next</string>
+    <string name="subdomain">Subdomain</string>
+    <string name="you_can_upload_an_invoice_in_seconds_move_your_operations_to_cloud_in_just_few_clicks_all_invoices_are_stored_safe_and_secure_on_cloud_upload">You can upload an invoice in seconds, move your operations to cloud in just few clicks. All invoices are stored safe and secure on cloud upload.</string>
+
+</resources>

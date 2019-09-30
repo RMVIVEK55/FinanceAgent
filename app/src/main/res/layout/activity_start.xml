@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/signUpBg"
+    tools:context="com.tridentnets.finance.activity.StartActivity">
+
+    <ImageView
+       android:layout_marginTop="@dimen/dp60"
+        android:id="@+id/img_start_logo"
+
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/pic"
+
+       />
+
+    <com.tridentnets.finance.typeface.TextViewFiraScanBold
+        android:paddingTop="@dimen/dp30"
+        android:paddingRight="35dp"
+        android:paddingLeft="35dp"
+        android:gravity="center"
+        android:id="@+id/txt_start_up_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img_start_logo"
+        android:layout_centerInParent="true"
+        android:text="@string/simple_app_to_keep_track_of_your_invoiced"
+        android:textColor="@color/white"
+        android:textSize="@dimen/sp18" />
+
+    <com.tridentnets.finance.typeface.TextViewFiraScanBook
+        android:paddingRight="@dimen/dp20"
+        android:paddingLeft="@dimen/dp20"
+        android:gravity="center"
+        android:paddingTop="@dimen/dp20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_start_up_title"
+       android:lineSpacingExtra="0sp"
+        android:text="@string/one_app_to_keep_track_of_all_your_invoics_for_levels_in_your_oranization"
+        android:textColor="@color/white"
+        android:textSize="@dimen/sp16" />
+
+    <com.tridentnets.finance.typeface.ButtonFiraScanMedium
+        android:id="@+id/btn_start"
+        android:layout_alignParentBottom="true"
+        android:paddingRight="@dimen/dp10"
+        android:paddingLeft="@dimen/dp10"
+        android:layout_marginRight="@dimen/dp20"
+        android:textAllCaps="false"
+        android:layout_marginBottom="@dimen/dp30"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_green_btn"
+        android:text="@string/getStart"
+        android:textColor="@color/ufogreen"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>

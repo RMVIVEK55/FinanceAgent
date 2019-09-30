@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    //7inch tab size
+    <dimen name="Signup600Title">26sp</dimen>
+    <dimen name="Signup600TitleInfo">26sp</dimen>
+    <dimen name="Signup600TextView">26sp</dimen>
+    <dimen name="Signup600BtnNewAc">26sp</dimen>
+    <dimen name="Signup600TermsInfo">26sp</dimen>
+    <dimen name="Signup600Already">26sp</dimen>
+    <dimen name="Signup600EdtTxtSize">16sp</dimen>
+    //org crt nxt stp
+    <dimen name="orgCtrNxtStp">160dp</dimen>
+
+    //10inch tab size
+    <dimen name="MarginLeft10Inch">250dp</dimen>
+    <dimen name="MarginRight10Inch">250dp</dimen>
+    <dimen name="Tab10CrtOrgMarginleft">250dp</dimen>
+
+
+    //phone
+    <dimen name="SignupEdtTxtSize">16sp</dimen>
+
+    <dimen name="sp26">26sp</dimen>
+    <dimen name="sp16">16sp</dimen>
+    <dimen name="dp1">1dp</dimen>
+    <dimen name="dp15">15dp</dimen>
+    <dimen name="dp30">30dp</dimen>
+    <dimen name="dp20">20dp</dimen>
+    <dimen name="dp40">40dp</dimen>
+    <dimen name="dp60">60dp</dimen>
+    <dimen name="dp25">25dp</dimen>
+    <dimen name="dp70">70dp</dimen>
+    <dimen name="dp50">50dp</dimen>
+    <dimen name="sp14">14sp</dimen>
+    <dimen name="dp10">10dp</dimen>
+    <dimen name="sp18">18sp</dimen>
+    <dimen name="dp90">90dp</dimen>
+    <dimen name="dp120">120dp</dimen>
+
+</resources>
